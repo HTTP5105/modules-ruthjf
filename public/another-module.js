@@ -10,7 +10,10 @@ var HobbitSettlement = class {
     this.originalSettlement = { name: 'Eriador', details: eriadorDetails };
   }
 };
+export { HobbitSettlement };
 
 var theShire = new HobbitSettlement('The Shire', 1601, ['Marcho', 'Blanco']);
+export { theShire };
 
 var buckland = new HobbitSettlement('Buckland', 2340, 'Gorhendad Oldbuck');
+export { buckland };
